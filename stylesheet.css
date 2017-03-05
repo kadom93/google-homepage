@@ -1,5 +1,9 @@
+.container {
+  margin-top: 250px;
+}
 #logo {
   margin-left: 800px;
+  margin-bottom: 20px;
   width:450px;
 }
 
@@ -20,6 +24,7 @@
   width: 135px;
 }
 .btn:hover {
+  background-color: #f2f2f2;
   border: 1px solid #d6d6d6;
   color: black;
 }
@@ -28,10 +33,18 @@
   border: 1px solid #ededed;
   border-radius: 2px;
   box-shadow: 0px 2px 3px #ededed;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  padding: 10px;
   height: 40px;
   width: 600px;
 }
 #search:hover {
-
+  box-shadow: 0px 4px 7px #d6d6d6;
+}
+#search:active {
+  box-shadow: 0px 4px 7px #d6d6d6;
+}
+#search:focus {
+  border: 1px solid #ededed;
+  box-shadow: 0px 4px 7px #d6d6d6;
 }
