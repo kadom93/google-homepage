@@ -12,7 +12,7 @@
 .nav ul {
   float: right;
   position: relative;
-  top: -230px;
+  top: -240px;
   left: -20px;
 }
 .nav a {
@@ -22,6 +22,19 @@
 }
 .nav a:hover {
   text-decoration: underline;
+}
+.nav #nav-prof {
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+}
+.nav #squares {
+  position: relative;
+  top: 5px;
+}
+.nav #notifications {
+  position: relative;
+  top: 10px;
 }
 .wrap {
   margin-top: 250px;
