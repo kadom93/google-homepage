@@ -1,4 +1,37 @@
 #logo {
-width:450px;
-height: 200px;
+  margin-left: 800px;
+  width:450px;
+}
+
+.form {
+  margin: 0 auto;
+  width: 600px;
+}
+.buttons {
+  margin-left: 177px;
+}
+.btn {
+  background-color: #ededed;
+  border: none;
+  border-radius: 4px;
+  color: #6c6e70;
+  font-weight: bold;
+  height: 35px;
+  width: 135px;
+}
+.btn:hover {
+  border: 1px solid #d6d6d6;
+  color: black;
+}
+
+#search {
+  border: 1px solid #ededed;
+  border-radius: 2px;
+  box-shadow: 0px 2px 3px #ededed;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 600px;
+}
+#search:hover {
+
 }
