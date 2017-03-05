@@ -6,6 +6,23 @@
   min-height: 100%;
   position: relative;
 }
+.nav {
+  margin-top: 20px;
+}
+.nav ul {
+  float: right;
+  position: relative;
+  top: -230px;
+  left: -20px;
+}
+.nav a {
+  color: #282828;
+  text-decoration: none;
+  font-size: 14px;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
 .wrap {
   margin-top: 250px;
 }
